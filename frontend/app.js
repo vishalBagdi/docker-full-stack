@@ -15,8 +15,8 @@ app.get("/", (req, res) => {
 app.post("/submit", async (req, res) => {
     try {
         const response = await axios.post(
-            // "http://backend:5000/submit",
-            "http://localhost:5000/submit",
+            "http://backend:5000/submit",
+            // "http://localhost:5000/submit",
             req.body
         );
 
